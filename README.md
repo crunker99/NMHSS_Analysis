@@ -22,11 +22,11 @@ Does the number of facilities, though, keep up with the population size? What ar
 
 Maine, Alaska, Vermont ... good job:
 
-<img src="/images/topten1.jpeg" width="540" height="324">
+<img src="/images/topten1.jpeg">
 
 
 Some states with a lot of facilities, like California and Florida, come in the bottom ten for number of facilities per population:
 
-<img src="/images/bottomten1.jpeg" width="540" height="324">
+<img src="/images/bottomten1.jpeg">
 
 
