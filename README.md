@@ -1,4 +1,4 @@
-NMHSS 2010-2018 Survey Data EDA
+# NMHSS 2010-2018 Survey Data EDA
 
 
 Data comes from 7 years of the (https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521)[National Mental Health Services Survey] (N-MHSS), "an annual survey designed to collect statistical information on the services and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories. In every other year, beginning in 2014, the survey also collects statistical information on the numbers and demographic characteristics of persons served in these treatment facilities as of a specified survey reference date."
@@ -30,9 +30,14 @@ Some states with a lot of facilities, like California and Florida, come in the b
 
 <img src="/images/bottomten1.jpeg">
 
+
+## At-risk groups and treatment availability 
+
 I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and other minorities.
 
-Who likes children?
+
+
+### Children
 
 <img src="/images/child_h.jpeg">
 
@@ -40,10 +45,13 @@ Who likes children?
 
 <img src="/images/child_by_state.jpeg">
 
-Coastal cities don't.
+Coastal cities appear to offer less mental health care for children.
 
 
-Where are LGBT services commonly offered?
+
+### LGBT
+
+Where are dedicated LGBT services commonly offered?
 
 
 <img src="/images/lgbt_h.jpeg">
@@ -51,3 +59,6 @@ Where are LGBT services commonly offered?
 <img src="/images/lgbt_l.jpeg">
 
 <img src="/images/lgbt_by_state.jpeg">
+
+
+
