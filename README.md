@@ -34,19 +34,24 @@ Some states with a lot of facilities, like California and Florida, come in the b
 
 ## At-risk groups and treatment availability 
 
-I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and other minorities.
+I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans.
 
 
 
 ### Children
 
+Coastal cities appear to offer less mental health care for children.
 <img src="/images/child_h.jpeg">
 
 <img src="/images/child_l.jpeg">
 
 <img src="/images/child_by_state.jpeg">
 
-Coastal cities appear to offer less mental health care for children.
+
+
+
+### Elderly
+
 
 
 
@@ -62,4 +67,5 @@ Where are dedicated LGBT services commonly offered?
 <img src="/images/lgbt_by_state.jpeg">
 
 
+### 
 
