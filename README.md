@@ -14,11 +14,11 @@ Getting an overview of facility counts by state:
 
 #### Focus on 2018 (most recent data)
 
-Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html), notice the similarity, but also differnce:
+Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html), we see some obvious similarities, as well as differences:
 ![Population by state](/images/popByState.jpeg)
 
-The linear correlation coefficient (r) between population and state facility count = 0.832893,
-which is a relatively strong positive correlation.
+The linear correlation coefficient (r) between population and facility count as a function of state is 0.832893,
+which is a relatively strong positive correlation. However, it is not perfect
 
 Does the number of facilities, though, keep up with the population size? What are the statewide facility counts per capita?
 ![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
@@ -36,13 +36,14 @@ Some states with a lot of facilities, like California and Florida, come in the b
 
 ## At-risk groups and treatment availability 
 
-I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans.
+I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans. Continuing with a geographic approach
 
 
 
 ### Children
 
 Coastal cities appear to offer less mental health care for children.
+
 <img src="/images/child_h.jpeg">
 
 <img src="/images/child_l.jpeg">
@@ -53,7 +54,7 @@ Coastal cities appear to offer less mental health care for children.
 
 
 ### Elderly
-
+... 
 
 
 
@@ -69,5 +70,5 @@ Where are dedicated LGBT services commonly offered?
 <img src="/images/lgbt_by_state.jpeg">
 
 
-### 
-
+### Veterans
+...
