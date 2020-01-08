@@ -4,13 +4,15 @@
 Data comes from 7 years of the [National Mental Health Services Survey](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), "an annual survey designed to collect statistical information on the services and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories. In every other year, beginning in 2014, the survey also collects statistical information on the numbers and demographic characteristics of persons served in these treatment facilities as of a specified survey reference date."
 
 
-Yearly overview:
+### Yearly overview:
 
 <img src="/images/totalresponses.jpeg">
 
 
 Getting an overview of facility counts by state:
 ![Facilities by state](/images/facByState.jpeg)
+
+#### Focus on 2018 (most recent data)
 
 Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html), notice the similarity, but also differnce:
 ![Population by state](/images/popByState.jpeg)
