@@ -31,6 +31,7 @@ Some states with a lot of facilities, like California and Florida, come in the b
 <img src="/images/bottomten1.jpeg">
 
 
+
 ## At-risk groups and treatment availability 
 
 I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and other minorities.
