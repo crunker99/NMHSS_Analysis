@@ -43,7 +43,7 @@ I am interested in the availability of services to at-risk groups, including chi
 
 Coastal cities appear to offer less mental health care for children.
 
-|![](/images/children_state.jpeg)|![](/images/children_map.jpeg)|
+|![](images/children_state.jpeg)|![](images/children_map.jpeg)|
 |---|---|
 
 
