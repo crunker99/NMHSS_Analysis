@@ -28,7 +28,7 @@ States with lower [population density](https://en.wikipedia.org/wiki/List_of_sta
 <img src="/images/topten1.jpeg">
 
 
-Some states with a lot of facilities, like California and Florida, come in the bottom ten for number of facilities per capita:
+A few states with many facilities, such as California and Florida, are in the bottom 10 in terms of facilities per capita:
 
 <img src="/images/bottomten1.jpeg">
 
@@ -40,8 +40,6 @@ I am interested in the availability of services to at-risk groups, including chi
 
 
 #### Children
-
-Coastal cities appear to offer less mental health care for children.
 
 <img src="/images/children_states.jpeg">
 <img src="/images/children_map.jpeg">
@@ -72,21 +70,22 @@ Where are dedicated LGBT services commonly offered?
 ## Comparison of CA to US
 
 
-By survey design("/data/NMHSS2018DS0001infoquestionnairespecs.pdf"), there was a section that asked each facility if they offered services for various demographics that could be considered at-risk groups, such as children with serious emotional disturbances, 
+By [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) design, there was a section that asked each facility if they offered services for various demographics that could be considered at-risk groups, such as children with serious emotional disturbances, 
 
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
 Looking across the mean score of all the facilities in each state:
 
-<insert image here>
+<img src="./images/mean_score_map.jpeg">
 
 Lowest mean score: Iowa - 2.58
 Highest mean score: Hawaii - 5.0
 
-USA mean score: 3.64
+Overall USA mean score: 3.64
 CA mean score: 3.86
 
-How significant is the difference between the average 
+So California scores a little better, but how significant is the 0.22 difference in average number of services offered?
+
 Null hypothesis: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
 
 Alternate hypothesis: There is a significant difference.
