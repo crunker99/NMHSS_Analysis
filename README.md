@@ -23,14 +23,9 @@ Does the number of facilities in a state keep up with its population size? What 
 
 ![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
 
-States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density)  score higher, such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st).
+States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density), such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st) score higher. Some states with many facilities, such as California and Florida, score in the bottom ten.
 
 <img src="/images/topten1.jpeg">
-
-
-A few states with many facilities, such as California and Florida, are in the bottom 10 in terms of facilities per capita:
-
-<img src="/images/bottomten1.jpeg">
 
 
 
