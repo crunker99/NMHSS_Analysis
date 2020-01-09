@@ -48,7 +48,7 @@ Coastal cities appear to offer less mental health care for children.
 
 #### Elderly
 
-|<img src="/images/seniors_states.jpeg"> |<img src="/images/seniors_map.jpeg"> |
+|<img src="/images/seniors_states.jpeg">|<img src="/images/seniors_map.jpeg"> |
 |<img src="/images/alz_d_states.jpeg"> |<img src="/images/alz_d_map.jpeg"> |
 |---|---|
 
@@ -58,11 +58,11 @@ Coastal cities appear to offer less mental health care for children.
 Where are dedicated LGBT services commonly offered?
 
 
-|<img src="/images/lgbt_states.jpeg"> |<img src="/images/lgbt_map.jpeg"> |
+|<img src="/images/lgbt_states.jpeg">|<img src="/images/lgbt_map.jpeg">|
 |---|---|
 
 #### Veterans
 
-|<img src="/images/vet_states.jpeg"> |<img src="/images/vet_map.jpeg"> |
+|<img src="/images/vet_states.jpeg"> |<img src="/images/vet_map.jpeg"> 
 |---|---|
 
