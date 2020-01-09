@@ -68,3 +68,17 @@ Where are dedicated LGBT services commonly offered?
 <img src="/images/vet_states.jpeg">
 <img src="/images/vet_map.jpeg">
 
+
+## Comparison of CA to US
+
+Null hypothesis: There is no difference between the mean number of servicesfor at-risk groups offered at Mental Health treatment facilities in CA and the rest of the country
+
+Alternate hypothesis: There IS a difference
+
+In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
+The mean score for USA and CA was 3.64 and 3.86, respectively.
+
+
+
+<img src="/images/prob_dist1.jpeg">
+
