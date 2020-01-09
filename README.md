@@ -43,13 +43,14 @@ I am interested in the availability of services to at-risk groups, including chi
 Coastal cities appear to offer less mental health care for children.
 
 |<img src="/images/children_state.jpeg">|<img src="/images/children_map.jpeg">|
+|---|---|
 
 
 #### Elderly
 
 |<img src="/images/seniors_state.jpeg"> |<img src="/images/seniors_map.jpeg"> |
 |<img src="/images/alzd_state.jpeg"> |<img src="/images/alzd_map.jpeg"> |
-
+|---|---|
 
 
 #### LGBT
@@ -58,10 +59,10 @@ Where are dedicated LGBT services commonly offered?
 
 
 |<img src="/images/lgbt_state.jpeg"> |<img src="/images/lgbt_map.jpeg"> |
-
+|---|---|
 
 #### Veterans
 
 |<img src="/images/vet_state.jpeg"> |<img src="/images/vet_map.jpeg"> |
-
+|---|---|
 
