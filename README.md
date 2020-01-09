@@ -17,12 +17,13 @@ Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/20
 ![Population by state](/images/popByState.jpeg)
 
 The linear correlation coefficient (r) between population and facility count as a function of state is 0.832893,
-which is a relatively strong positive correlation. However, it is not perfect
+which is a relatively strong positive correlation.
 
-Does the number of facilities, though, keep up with the population size? What are the statewide facility counts per capita?
+Does the number of facilities in a state keep up with its population size? What are the statewide facility counts per capita?
+
 ![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
 
-We find that states with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density)  score better, such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st).
+States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density)  score higher, such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st).
 
 <img src="/images/topten1.jpeg">
 
@@ -42,14 +43,18 @@ I am interested in the availability of services to at-risk groups, including chi
 
 Coastal cities appear to offer less mental health care for children.
 
-|<img src="/images/children_states.jpeg">|<img src="/images/children_map.jpeg">|
+<img src="/images/children_states.jpeg">
+<img src="/images/children_map.jpeg">
 |---|---|
 
 
 #### Elderly
 
-|<img src="/images/seniors_states.jpeg">|<img src="/images/seniors_map.jpeg">|
-|<img src="/images/alz_d_states.jpeg">|<img src="/images/alz_d_map.jpeg">|
+<img src="/images/seniors_states.jpeg">
+<img src="/images/seniors_map.jpeg">
+|---|---|
+<img src="/images/alz_d_states.jpeg">
+<img src="/images/alz_d_map.jpeg">
 |---|---|
 
 
@@ -58,11 +63,13 @@ Coastal cities appear to offer less mental health care for children.
 Where are dedicated LGBT services commonly offered?
 
 
-|<img src="/images/lgbt_states.jpeg">|<img src="/images/lgbt_map.jpeg">|
+<img src="/images/lgbt_states.jpeg">
+<img src="/images/lgbt_map.jpeg">
 |---|---|
 
 #### Veterans
 
-|<img src="/images/vet_states.jpeg"> |<img src="/images/vet_map.jpeg">|
+<img src="/images/vet_states.jpeg">
+<img src="/images/vet_map.jpeg">
 |---|---|
 
