@@ -1,13 +1,12 @@
 # NMHSS 2010-2018 Survey Data EDA
 
 
-Data comes from 7 years of the [National Mental Health Services Survey](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), "an annual survey designed to collect statistical information on the services and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories. In every other year, beginning in 2014, the survey also collects statistical information on the numbers and demographic characteristics of persons served in these treatment facilities as of a specified survey reference date."
+Data comes from 7 years of the [National Mental Health Services Survey](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), "an annual survey designed to collect statistical information on the services and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories."
 
 
 ### Yearly overview:
 
 <img src="/images/totalresponses.jpeg">
-
 
 Getting an overview of facility counts by state:
 ![Facilities by state](/images/facByState.jpeg)
@@ -39,36 +38,30 @@ Some states with a lot of facilities, like California and Florida, come in the b
 I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans. Continuing with a geographic approach
 
 
-
-### Children
+#### Children
 
 Coastal cities appear to offer less mental health care for children.
 
-<img src="/images/child_h.jpeg">
-
-<img src="/images/child_l.jpeg">
-
-<img src="/images/child_by_state.jpeg">
+|<img src="/images/children_state.jpeg">|<img src="/images/children_map.jpeg">|
 
 
+#### Elderly
 
-
-### Elderly
-... 
+|<img src="/images/seniors_state.jpeg"> |<img src="/images/seniors_map.jpeg"> |
+|<img src="/images/alzd_state.jpeg"> |<img src="/images/alzd_map.jpeg"> |
 
 
 
-### LGBT
+#### LGBT
 
 Where are dedicated LGBT services commonly offered?
 
 
-<img src="/images/lgbt_h.jpeg">
-
-<img src="/images/lgbt_l.jpeg">
-
-<img src="/images/lgbt_by_state.jpeg">
+|<img src="/images/lgbt_state.jpeg"> |<img src="/images/lgbt_map.jpeg"> |
 
 
-### Veterans
-...
+#### Veterans
+
+|<img src="/images/vet_state.jpeg"> |<img src="/images/vet_map.jpeg"> |
+
+
