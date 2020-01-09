@@ -67,10 +67,10 @@ Where are dedicated LGBT services commonly offered?
 <img src="/images/vet_states.jpeg">
 
 
-## Comparison of CA to US
+## Comparison of CA to USA
 
 
-By [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) design, there was a section that asked each facility if they offered services for various demographics that could be considered at-risk groups, such as children with serious emotional disturbances, 
+The 2018 [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) asked each facility if they offered dedicated services for various demographics that could be considered at-risk groups, such as children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, 
 
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
@@ -84,15 +84,28 @@ Highest mean score: Hawaii - 5.0
 Overall USA mean score: 3.64
 CA mean score: 3.86
 
+
+<img src="./images/mean_dist.jpeg">
+
 So California scores a little better, but how significant is the 0.22 difference in average number of services offered?
 
 Null hypothesis: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
 
-Alternate hypothesis: There is a significant difference.
+Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
 
 
+|Number of facilities in USA (excluding CA): 10829|Number of facilities in CA: 850|
 
-
+Normalize the frequency counts to the rate they occur in each sample.
 
 <img src="/images/prob_dist1.jpeg">
 
+Because the data was not normally distributed, I used a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
+
+##### p-value = 0.000000221
+
+As the p-value < 0.05, we may <b>reject</b> the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
+
+Because we are ultimately interested in the averages of our samples, let's perform a T-test as well.
+
+Calculated degrees of freedom:
