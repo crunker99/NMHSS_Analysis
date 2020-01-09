@@ -41,30 +41,30 @@ I am interested in the availability of services to at-risk groups, including chi
 
 #### Children
 
-<img src="/images/children_states.jpeg">
 <img src="/images/children_map.jpeg">
+<img src="/images/children_states.jpeg">
 
 
 #### Elderly
 
-<img src="/images/seniors_states.jpeg">
 <img src="/images/seniors_map.jpeg">
-<img src="/images/alz_d_states.jpeg">
+<img src="/images/seniors_states.jpeg">
 <img src="/images/alz_d_map.jpeg">
+<img src="/images/alz_d_states.jpeg">
+
 
 
 #### LGBT
 
 Where are dedicated LGBT services commonly offered?
 
-
-<img src="/images/lgbt_states.jpeg">
 <img src="/images/lgbt_map.jpeg">
+<img src="/images/lgbt_states.jpeg">
 
 #### Veterans
 
-<img src="/images/vet_states.jpeg">
 <img src="/images/vet_map.jpeg">
+<img src="/images/vet_states.jpeg">
 
 
 ## Comparison of CA to US
