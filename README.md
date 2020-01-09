@@ -53,10 +53,7 @@ I am interested in the availability of services to at-risk groups, including chi
 <img src="/images/alz_d_states.jpeg">
 
 
-
 #### LGBT
-
-Where are dedicated LGBT services commonly offered?
 
 <img src="/images/lgbt_map.jpeg">
 <img src="/images/lgbt_states.jpeg">
@@ -100,9 +97,10 @@ Normalize the frequency counts to the rate they occur in each sample.
 
 <img src="/images/prob_dist1.jpeg">
 
+###Mann-Whitney U-statistic
 Because the data was not normally distributed, I used a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
 
-##### p-value = 0.000000221
+#### p-value = 0.000000221
 
 As the p-value < 0.05, we may <b>reject</b> the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
 
