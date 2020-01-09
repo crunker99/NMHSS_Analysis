@@ -20,6 +20,7 @@ The linear correlation coefficient (r) between population and facility count as 
 which is a relatively strong positive correlation. However, it is not perfect
 
 Does the number of facilities, though, keep up with the population size? What are the statewide facility counts per capita?
+
 ![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
 
 We find that states with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density)  score better, such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st).
@@ -42,7 +43,7 @@ I am interested in the availability of services to at-risk groups, including chi
 
 Coastal cities appear to offer less mental health care for children.
 
-|<img src="/images/children_state.jpeg">|<img src="/images/children_map.jpeg">|
+|![](/images/children_state.jpeg)|![](/images/children_map.jpeg)|
 |---|---|
 
 
