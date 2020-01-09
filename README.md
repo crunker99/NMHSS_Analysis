@@ -86,15 +86,15 @@ Null hypothesis: There is no signficant difference between the mean number of se
 
 Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
 
----
-|Number of facilities in USA (excluding CA): 10829|Number of facilities in CA: 850|
+|# fac. in USA (excluding CA)|# of facilities in CA|
+|10829|850|
 |---|---|
 
 Normalize the frequency counts to the rate they occur in each sample.
 
 <img src="/images/prob_dist1.jpeg">
 
-###Mann-Whitney U-statistic
+### Mann-Whitney U-statistic
 Because the data was not normally distributed, I used a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
 
 #### p-value = 0.000000221
