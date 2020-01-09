@@ -71,12 +71,27 @@ Where are dedicated LGBT services commonly offered?
 
 ## Comparison of CA to US
 
-Null hypothesis: There is no difference between the mean number of servicesfor at-risk groups offered at Mental Health treatment facilities in CA and the rest of the country
 
-Alternate hypothesis: There IS a difference
+By survey design("/data/NMHSS2018DS0001infoquestionnairespecs.pdf"), there was a section that asked each facility if they offered services for various demographics that could be considered at-risk groups, such as children with serious emotional disturbances, 
+
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
-The mean score for USA and CA was 3.64 and 3.86, respectively.
+Looking across the mean score of all the facilities in each state:
+
+<insert image here>
+
+Lowest mean score: Iowa - 2.58
+Highest mean score: Hawaii - 5.0
+
+USA mean score: 3.64
+CA mean score: 3.86
+
+How significant is the difference between the average 
+Null hypothesis: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
+
+Alternate hypothesis: There is a significant difference.
+
+
 
 
 
