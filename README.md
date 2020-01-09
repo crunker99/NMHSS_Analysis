@@ -86,9 +86,11 @@ Null hypothesis: There is no signficant difference between the mean number of se
 
 Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
 
+
 |# fac. in USA (excluding CA)|# of facilities in CA|
-|10829|850|
 |---|---|
+|10829|850|
+
 
 Normalize the frequency counts to the rate they occur in each sample.
 
