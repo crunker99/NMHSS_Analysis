@@ -8,10 +8,11 @@ Data comes from 7 years of the [National Mental Health Services Survey](https://
 
 <img src="/images/totalresponses.jpeg">
 
-Getting an overview of facility counts by state:
-![Facilities by state](/images/facByState.jpeg)
 
 #### Focus on 2018 (most recent data)
+
+Getting an overview of facility counts by state:
+![Facilities by state](/images/facByState.jpeg)
 
 Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html), we see some obvious similarities, as well as differences:
 ![Population by state](/images/popByState.jpeg)
@@ -85,8 +86,9 @@ Null hypothesis: There is no signficant difference between the mean number of se
 
 Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
 
-
+---
 |Number of facilities in USA (excluding CA): 10829|Number of facilities in CA: 850|
+|---|---|
 
 Normalize the frequency counts to the rate they occur in each sample.
 
