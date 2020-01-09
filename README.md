@@ -20,7 +20,6 @@ The linear correlation coefficient (r) between population and facility count as 
 which is a relatively strong positive correlation. However, it is not perfect
 
 Does the number of facilities, though, keep up with the population size? What are the statewide facility counts per capita?
-
 ![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
 
 We find that states with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density)  score better, such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st).
@@ -43,14 +42,14 @@ I am interested in the availability of services to at-risk groups, including chi
 
 Coastal cities appear to offer less mental health care for children.
 
-|![](images/children_state.jpeg)|![](images/children_map.jpeg)|
+|<img src="/images/children_states.jpeg">|<img src="/images/children_map.jpeg">|
 |---|---|
 
 
 #### Elderly
 
-|<img src="/images/seniors_state.jpeg"> |<img src="/images/seniors_map.jpeg"> |
-|<img src="/images/alzd_state.jpeg"> |<img src="/images/alzd_map.jpeg"> |
+|<img src="/images/seniors_states.jpeg"> |<img src="/images/seniors_map.jpeg"> |
+|<img src="/images/alz_d_states.jpeg"> |<img src="/images/alz_d_map.jpeg"> |
 |---|---|
 
 
@@ -59,11 +58,11 @@ Coastal cities appear to offer less mental health care for children.
 Where are dedicated LGBT services commonly offered?
 
 
-|<img src="/images/lgbt_state.jpeg"> |<img src="/images/lgbt_map.jpeg"> |
+|<img src="/images/lgbt_states.jpeg"> |<img src="/images/lgbt_map.jpeg"> |
 |---|---|
 
 #### Veterans
 
-|<img src="/images/vet_state.jpeg"> |<img src="/images/vet_map.jpeg"> |
+|<img src="/images/vet_states.jpeg"> |<img src="/images/vet_map.jpeg"> |
 |---|---|
 
