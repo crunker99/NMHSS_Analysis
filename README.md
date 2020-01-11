@@ -1,34 +1,54 @@
-# NMHSS 2010-2018 Survey Data EDA
+# US Mental Health Services for At-Risk Groups
 
 
-Data comes from 7 years of the [National Mental Health Services Survey](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), "an annual survey designed to collect statistical information on the services and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories."
 
 
-### Yearly overview:
+### Project Overview
+- An analysis of the services provided by mental health care facilities across the country, including a focus on California's provision of services to at-risk demographics.
 
-<img src="/images/totalresponses.jpeg">
+### Motivation
+- [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals 
+- [](https://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NSDUHNationalFindingsReport2018/NSDUHNationalFindingsReport2018.pdf)
+## EDA
+
+ #### Data for this project comes from  [National Mental Health Services Surveys](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), and contains information about mental health treatment facilities in the United States.
+
+- Original Datasets
+    * 2010 - 2018, missing 2011 and 2013 (7 tables total)
+    * 42,747 facilities (rows) with 284 features (columns)
+- Data Cleaning
+    * Correct for differences in the naming of same features over the years
+    * After EDA, focused time range to 2018, the most recent dataset
+    * Create "services count" column that sums number of facility services, remove invalid responses
+- Cleaned Data
+    * 11,679 facilities with 20 features
+
 
 
 #### Focus on 2018 (most recent data)
 
 Getting an overview of facility counts by state:
-![Facilities by state](/images/facByState.jpeg)
+![Facilities by state](images/facByState.jpeg)
 
-Bringing in [2018 population data](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html), we see some obvious similarities, as well as differences:
-![Population by state](/images/popByState.jpeg)
+#### Populalation data was used from [census.gov](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
+
+ we see some obvious similarities, as well as differences:
+![Population by state](images/popByState.jpeg)
 
 The linear correlation coefficient (r) between population and facility count as a function of state is 0.832893,
 which is a relatively strong positive correlation.
 
 Does the number of facilities in a state keep up with its population size? What are the statewide facility counts per capita?
 
-![Facilities per 100k people by state](/images/facPerCapitaByState.jpeg)
+![Fac per capita map](images/facPerCapitaByState.jpeg)
 
 States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density), such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st) score higher. Some states with many facilities, such as California and Florida, score in the bottom ten.
 
-<img src="/images/topten1.jpeg">
+![Fac per capita graph](images/topten1.jpeg)
 
+In 2018, 60% of facilities operated in an 'outpatient' setting.
 
+![Yearly Responses](images/settingproportions.jpeg)
 
 ## At-risk groups and treatment availability 
 
@@ -37,27 +57,27 @@ I am interested in the availability of services to at-risk groups, including chi
 
 #### Children
 
-<img src="/images/children_map.jpeg">
-<img src="/images/children_states.jpeg">
+![child map](images/children_map.jpeg)
+![child graphs](images/children_states.jpeg)
 
 
 #### Elderly
 
-<img src="/images/seniors_map.jpeg">
-<img src="/images/seniors_states.jpeg">
-<img src="/images/alz_d_map.jpeg">
-<img src="/images/alz_d_states.jpeg">
+![seniors map](images/seniors_map.jpeg)
+![seniors graphs](images/seniors_states.jpeg)
+![alz map](images/alz_d_map.jpeg)
+![alz graphs](images/alz_d_states.jpeg)
 
 
 #### LGBT
 
-<img src="/images/lgbt_map.jpeg">
-<img src="/images/lgbt_states.jpeg">
+![lgbt map](images/lgbt_map.jpeg)
+![lgbt graphs](images/lgbt_states.jpeg)
 
 #### Veterans
 
-<img src="/images/vet_map.jpeg">
-<img src="/images/vet_states.jpeg">
+![vet map](images/vet_map.jpeg)
+![vet states](images/vet_states.jpeg)
 
 
 ## Comparison of CA to USA
@@ -77,32 +97,37 @@ Highest mean score: Hawaii - 5.0
 Overall USA mean score: 3.64
 CA mean score: 3.86
 
+The distribution is right skewed:
 
 <img src="./images/mean_dist.jpeg">
 
-So California scores a little better, but how significant is the 0.22 difference in average number of services offered?
+California facilities scores slightly better, but is the 0.22 difference in average number of services offered?
 
-Null hypothesis: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
+## Hypothesis Test
+
+>*H<sub>0</sub>*: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
+
+>P(# of services at facility in CA > # of services at facility elsewhere) = 0.5
 
 Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
 
 
 |# fac. in USA (excluding CA)|# of facilities in CA|
-|---|---|
+|:---:|:---:|
 |10829|850|
 
 
-Normalize the frequency counts to the rate they occur in each sample.
+Scale the frequency counts to the rate they occur in each sample.
 
-<img src="/images/prob_dist1.jpeg">
+![prob dist comparison](images/prob_dist1.jpeg)
 
-### Mann-Whitney U-statistic
-Because the data was not normally distributed, I used a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
+### Outcome
+As the data was not normally distributed, a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
 
-#### p-value = 0.000000221
+**P-value = 0.000000221**
 
-As the p-value < 0.05, we may <b>reject</b> the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
+As the P-value < 0.05, we may **reject** the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
 
-Because we are ultimately interested in the averages of our samples, let's perform a T-test as well.
+## Further Steps
 
-Calculated degrees of freedom:
+Use other categorical variables besides state and examine their influence on what types of services facilities provide. 
