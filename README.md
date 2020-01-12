@@ -1,48 +1,49 @@
-# US Mental Health Services for At-Risk Groups
+# Geographic Breakdown of Mental Health Services for At-Risk Groups in the U.S.
+
+An analysis of the services provided by mental health care facilities across the country, including a focus on California's provision of services to at-risk demographics
 
 
-
-
-### Project Overview
-- An analysis of the services provided by mental health care facilities across the country, including a focus on California's provision of services to at-risk demographics.
+### Project Goals
+- Provide areas for improve at-risk groups 
 
 ### Motivation
 - [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals 
-- [](https://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NSDUHNationalFindingsReport2018/NSDUHNationalFindingsReport2018.pdf)
+- More than 60 percent of young adults in 2018 who had AMI (Any Mental Illness) [did not receive](https://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NSDUHNationalFindingsReport2018/NSDUHNationalFindingsReport2018.pdf) mental health services in the past year
+
+
 ## EDA
 
- #### Data for this project comes from  [National Mental Health Services Surveys](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), and contains information about mental health treatment facilities in the United States.
+ #### Data for this project primarily comes from  [National Mental Health Services Surveys](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), and contains information about mental health treatment facilities in the United States.
 
 - Original Datasets
-    * 2010 - 2018, missing 2011 and 2013 (7 tables total)
+    * 2010 - 2018 (no data available on 2011, 2013) (7 tables total)
     * 42,747 facilities (rows) with 284 features (columns)
 - Data Cleaning
-    * Correct for differences in the naming of same features over the years
-    * After EDA, focused time range to 2018, the most recent dataset
+    * Correct for naming differences in features with the same meaning across time
+    * After EDA, focused time range to 2018, most recently available data
     * Create "services count" column that sums number of facility services, remove invalid responses
 - Cleaned Data
     * 11,679 facilities with 20 features
 
 
 
-#### Focus on 2018 (most recent data)
+#### Focus on 2018 (most recent data at time of project)
 
-Getting an overview of facility counts by state:
+Broad overview of facility counts by state compared to population:
+
 ![Facilities by state](images/facByState.jpeg)
 
-#### Populalation data was used from [census.gov](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
 
- we see some obvious similarities, as well as differences:
 ![Population by state](images/popByState.jpeg)
+Populalation data from [census.gov](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
 
-The linear correlation coefficient (r) between population and facility count as a function of state is 0.832893,
-which is a relatively strong positive correlation.
+Linear correlation (state pop. to # of facilities) = 0.83
 
-Does the number of facilities in a state keep up with its population size? What are the statewide facility counts per capita?
+Does the total facilities in a state 'keep up' with its population size? (Note: This metric may be slightly naive, as facility capacity can greatly vary)
 
 ![Fac per capita map](images/facPerCapitaByState.jpeg)
 
-States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density), such as Maine(46th by population denisty), Alaska(50th), and Vermont(31st) score higher. Some states with many facilities, such as California and Florida, score in the bottom ten.
+States with lower [population density](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States_by_population_density), such as Maine (46th by population denisty), Alaska (50th), and Vermont (31st) score higher. Some states have many facilities total, such as California and Florida, but they score in the bottom ten by this ratio.
 
 ![Fac per capita graph](images/topten1.jpeg)
 
@@ -52,8 +53,7 @@ In 2018, 60% of facilities operated in an 'outpatient' setting.
 
 ## At-risk groups and treatment availability 
 
-I am interested in the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans. Continuing with a geographic approach
-
+This project examined the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans. 
 
 #### Children
 
@@ -83,7 +83,7 @@ I am interested in the availability of services to at-risk groups, including chi
 ## Comparison of CA to USA
 
 
-The 2018 [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) asked each facility if they offered dedicated services for various demographics that could be considered at-risk groups, such as children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, 
+The 2018 [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) requested each facility to report whether they offered dedicated services for various demographics that could be considered at-risk groups, such as children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, 
 
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
