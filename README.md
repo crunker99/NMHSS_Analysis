@@ -8,7 +8,7 @@ An analysis of the services provided by mental health care facilities across the
 
 ### Motivation
 - [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals 
-- More than 60 percent of young adults in 2018 who had AMI (Any Mental Illness) [did not receive](https://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NSDUHNationalFindingsReport2018/NSDUHNationalFindingsReport2018.pdf) mental health services in the past year
+- More than 60 percent of young adults in 2018 who had AMI (Any Mental Illness) [did not receive](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NSDUHNationalFindingsReport2018.pdf) mental health services in the past year
 
 
 ## EDA
@@ -83,13 +83,14 @@ This project examined the availability of services to at-risk groups, including 
 ## Comparison of CA to USA
 
 
-The 2018 [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) requested each facility to report whether they offered dedicated services for various demographics that could be considered at-risk groups, such as children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, 
+The 2018 N-MHSS [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) requested each facility  report whether they offered dedicated services for demographics who could have greater risks associated with lack of mental health treatment than the general population. This included children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, LGBT clients, persons with Alzheimer’s or dementia, and more.
+
 
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
 Looking across the mean score of all the facilities in each state:
 
-<img src="./images/mean_score_map.jpeg">
+![mean score map](images/mean_score_map.jpeg)
 
 Lowest mean score: Iowa - 2.58
 Highest mean score: Hawaii - 5.0
@@ -99,7 +100,7 @@ CA mean score: 3.86
 
 The distribution is right skewed:
 
-<img src="./images/mean_dist.jpeg">
+<img src="images/mean_dist.jpeg">
 
 California facilities scores slightly better, but is the 0.22 difference in average number of services offered?
 
