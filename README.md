@@ -98,12 +98,25 @@ Looking across the mean score of all the facilities in each state:
 ![mean score map](images/mean_score_map.jpeg)
 
 Lowest mean score: Iowa - 2.58
+
 Highest mean score: Hawaii - 5.0
 
 Overall USA mean score: 3.64
+
 CA mean score: 3.86
 
+# fac. in USA (excluding CA)|# of facilities in CA|
+|:---:|:---:|
+|10829|850|
+
+Scale the frequency counts to the rate they occur in each sample.
+
 The distribution is right skewed:
+
+![prob dist comparison](images/prob_dist1.jpeg)
+
+The distributions of the means by state is relatively normal.
+
 
 ![mean dist hist](images/mean_dist.png)
 
@@ -113,19 +126,12 @@ California facilities scores slightly better, but is the 0.22 difference in aver
 
 >*H<sub>0</sub>*: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
 
->P(# of services at facility in CA > # of services at facility elsewhere) = 0.5
+>P(# of services at facility in CA < # of services at facility elsewhere) = 0.5
 
-Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly greater than the rest of the country.
-
-
-|# fac. in USA (excluding CA)|# of facilities in CA|
-|:---:|:---:|
-|10829|850|
+Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly less than the rest of the country.
 
 
-Scale the frequency counts to the rate they occur in each sample.
-
-![prob dist comparison](images/prob_dist1.jpeg)
+|
 
 ### Outcome
 As the data was not normally distributed, a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
