@@ -124,21 +124,22 @@ California facilities scores slightly better, but is the 0.22 difference in aver
 
 ## Hypothesis Test
 
->*H<sub>0</sub>*: There is no signficant difference between the mean number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
+>*H<sub>0</sub>*: There is no signficant difference between the number of services for at-risk groups offered at mental health treatment facilities in California and the rest of the country.
 
 >P(# of services at facility in CA < # of services at facility elsewhere) = 0.5
 
-Alternate hypothesis: The mean number of services offered at mental health treatment facilities in California is significantly less than the rest of the country.
+Alternate hypothesis: The number of services offered at mental health treatment facilities in California is significantly less than the rest of the country.
 
 
-|
 
 ### Outcome
 As the data was not normally distributed, a Mann-Whitney U-statistic to test the validity of the null hypothesis within a confidence interval of 95%.
 
-**P-value = 0.000000221**
+Statistic=3620065.5
 
-As the P-value < 0.05, we may **reject** the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
+**P-value = 0.95**
+
+As the P-value < 0.05, we **fail to reject** the null hypothesis within the accepted range of type 1 error, using the Mann-Whitney U-test. 
 
 ## Further Steps
 
