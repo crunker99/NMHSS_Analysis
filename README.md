@@ -4,7 +4,7 @@ An analysis of the services provided by mental health care facilities across the
 
 
 ### Project Goals
-- Provide areas for improve at-risk groups 
+- Provide areas where facilities can improve in the services they provide at-risk groups 
 
 ### Motivation
 - [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals 
@@ -13,7 +13,7 @@ An analysis of the services provided by mental health care facilities across the
 
 ## EDA
 
- #### Data for this project primarily comes from  [National Mental Health Services Surveys](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), and contains information about mental health treatment facilities in the United States.
+ #### Data for this project primarily comes from  [National Mental Health Services Surveys](https://www.datafiles.samhsa.gov/study-series/national-mental-health-services-survey-n-mhss-nid13521) (N-MHSS), which contains survey responses from mental health treatment facilities across the United States.
 
 - Original Datasets
     * 2010 - 2018 (no data available on 2011, 2013) (7 tables total)
@@ -35,11 +35,12 @@ Broad overview of facility counts by state compared to population:
 
 
 ![Population by state](images/popByState.jpeg)
+
 Populalation data from [census.gov](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
 
 Linear correlation (state pop. to # of facilities) = 0.83
 
-Does the total facilities in a state 'keep up' with its population size? (Note: This metric may be slightly naive, as facility capacity can greatly vary)
+Does the total facilities in a state 'keep up' with its population size? (Note: This metric may be slightly naive, as facility capacity can vary, and so is only being used for EDA)
 
 ![Fac per capita map](images/facPerCapitaByState.jpeg)
 
@@ -85,6 +86,8 @@ This project examined the availability of services to at-risk groups, including 
 
 The 2018 N-MHSS [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NMHSS2018DS0001infoquestionnairespecs.pdf) requested each facility  report whether they offered dedicated services for demographics who could have greater risks associated with lack of mental health treatment than the general population. This included children/adolescents with serious emotional disturbances, persons with a diagnosis of PTSD, veterans, LGBT clients, persons with Alzheimer’s or dementia, and more.
 
+Frequency of services:
+![services_dist](images/services_dist.jpeg)
 
 
 In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
@@ -100,7 +103,7 @@ CA mean score: 3.86
 
 The distribution is right skewed:
 
-<img src="images/mean_dist.jpeg">
+![mean dist hist](images/mean_dist.png)
 
 California facilities scores slightly better, but is the 0.22 difference in average number of services offered?
 
