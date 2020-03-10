@@ -1,14 +1,14 @@
 # Geographic Breakdown of Mental Health Services for At-Risk Groups in the U.S.
 
-An analysis of the services provided by mental health care facilities across the country, including a focus on California's provision of services to at-risk demographics
+An analysis of the services provided by mental health care facilities across the country, including a focus on California's provision of services to at-risk demographics.
 
 
 ### Project Goals
-- Provide areas where facilities can improve in the services they provide at-risk groups 
+- Provide areas where facilities can improve in the services they provide at-risk groups.
 
 ### Motivation
-- [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals 
-- More than 60 percent of young adults in 2018 who had AMI (Any Mental Illness) [did not receive](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NSDUHNationalFindingsReport2018.pdf) mental health services in the past year
+- [Shortages](http://www.samhsa.gov/data/sites/default/files/cbhsq-reports/NMHSS-2018.pdf) of beds designated for mental health treatment in psychiatric and general hospitals.
+- More than 60 percent of young adults in 2018 who had AMI (Any Mental Illness) [did not receive](https://nbviewer.jupyter.org/github/crunker99/U.S.-Mental-Health-Facilities/blob/master/data/NSDUHNationalFindingsReport2018.pdf) mental health services in the past year.
 
 
 ## EDA
@@ -33,14 +33,13 @@ Broad overview of facility counts by state compared to population:
 
 ![Facilities by state](images/facByState.jpeg)
 
-
 ![Population by state](images/popByState.jpeg)
 
 Populalation data from [census.gov](https://www.census.gov/newsroom/press-kits/2018/pop-estimates-national-state.html)
 
 Linear correlation (state pop. to # of facilities) = 0.83
 
-Does the total facilities in a state 'keep up' with its population size? (Note: This metric may be slightly naive, as facility capacity can vary, and so is only being used for EDA)
+Does the total facilities in a state 'keep up' with its population size? This metric may be slightly naive, as facility capacity can vary.
 
 ![Fac per capita map](images/facPerCapitaByState.jpeg)
 
@@ -54,7 +53,7 @@ In 2018, 60% of facilities operated in an 'outpatient' setting.
 
 ## At-risk groups and treatment availability 
 
-This project examined the availability of services to at-risk groups, including children, the elderly, members of the LGBT community, and veterans. 
+This project examined the availability of services to at-risk groups, including children, elderly, members of the LGBT community, and veterans. 
 
 #### Children
 
@@ -89,8 +88,11 @@ The 2018 N-MHSS [survey](https://nbviewer.jupyter.org/github/crunker99/U.S.-Ment
 Frequency of services:
 ![services_dist](images/services_dist.jpeg)
 
+Maximum score in US: 17 --- # number of all possible services a facility could offer.
 
-In the USA, the highest 'score' for count of services was 17. In CA, it was 14.
+Maximum score in CA: 14
+
+
 Looking across the mean score of all the facilities in each state:
 
 ![mean score map](images/mean_score_map.jpeg)
