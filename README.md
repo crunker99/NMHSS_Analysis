@@ -117,8 +117,8 @@ The distribution is right skewed:
 
 The distributions of the means by state is relatively normal.
 
-
 ![mean dist hist](images/mean_dist.png)
+
 
 California facilities scores slightly better, but is the 0.22 difference in average number of services offered?
 
