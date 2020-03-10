@@ -105,7 +105,7 @@ Overall USA mean score: 3.64
 
 CA mean score: 3.86
 
-# fac. in USA (excluding CA)|# of facilities in CA
+|#fac. in USA (excluding CA)|# of facilities in CA|
 |:---:|:---:|
 |10829|850|
 
